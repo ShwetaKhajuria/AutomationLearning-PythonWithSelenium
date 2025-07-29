@@ -10,4 +10,4 @@ print(list(range(2,51,2))) #print even number 1 to 50
 print(list(range(1,51,2))) #print Odd numbers 1 to 50
 print(list(range(10,1,-1)))
 print(list(range(-10,-5)))
-print(list(range(-10,-5,2))) #-10 -8 -6 
+print(list(range(-10,-5,2))) #-10 -8 -6
