@@ -8,9 +8,7 @@ Birds.fun2()
 
 
 #Approach 2
-from animals import *
 animals.fun1()
 animals.fun2()
-from Birds import *
 Birds.fun1()
 Birds.fun2()

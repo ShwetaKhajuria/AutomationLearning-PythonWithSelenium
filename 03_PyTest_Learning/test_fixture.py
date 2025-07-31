@@ -17,3 +17,22 @@ def test_close_app():
     #driver = chrome_setup()
     print("Close_app Method-2")
     #driver.quit()
+
+
+# @pytest.fixture()
+# def setup_module():
+#     service=Service()
+#     driver= webdriver.Chrome(service=service)
+#     driver.get("https://www.google.com/")
+#     driver.implicitly_wait(5)
+#     driver.maximize_window()
+#     yield driver
+#     driver.quit()
+
+def test_TestCase1_check_title(setup_module):
+    driver=setup_module
+    assert driver.title == 'Google'
+
+def test_check_url(setup_module):
+    driver = setup_module
+    assert driver.current_url == "https://www.google.com/"

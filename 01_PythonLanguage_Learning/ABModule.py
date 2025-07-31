@@ -1,8 +1,8 @@
 #Approach 1
 import AModule
 import BModule
-A=AModule.Animal()
-B=BModule.Birds()
+A= AModule.Animal()
+B= BModule.Birds()
 A.display()
 B.display()
 
