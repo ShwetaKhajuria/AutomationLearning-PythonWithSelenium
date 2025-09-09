@@ -1,7 +1,3 @@
-from sys import flags
-
-from selenium.webdriver.common.devtools.v136.overlay import LineStyle
-from selenium.webdriver.support.expected_conditions import element_selection_state_to_be
 
 # How to create a new file and write text in it
 f = open("C:/Users/khajuria_S/Desktop/PY/TestFiles/My_New_File1.txt","w+")
