@@ -4,13 +4,13 @@ from selenium.webdriver.common.devtools.v136.overlay import LineStyle
 from selenium.webdriver.support.expected_conditions import element_selection_state_to_be
 
 # How to create a new file and write text in it
-# f = open("C:/Users/khajuria_S/Desktop/PY/TestFiles/My_New_File1.txt","w+")
-# f.write("This is my new test file\n")
-# f.write("To find the text\n")
-# f.write("Hello Shweta\n")
+f = open("C:/Users/khajuria_S/Desktop/PY/TestFiles/My_New_File1.txt","w+")
+f.write("This is my new test file\n")
+f.write("To find the text\n")
+f.write("Hello Shweta\n")
 
 
-# How to search for specific text in a file
+# with Logic - How to search for specific text in a file
 f = open("C:/Users/khajuria_S/Desktop/PY/TestFiles/My_New_File.txt","r+")
 Lines=f.readlines()
 My_flag=False
