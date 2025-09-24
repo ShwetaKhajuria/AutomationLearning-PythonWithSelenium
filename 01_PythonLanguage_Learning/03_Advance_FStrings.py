@@ -7,6 +7,7 @@ print("My name is {} {}".format(first_name,last_name))
 # New F method
 print(f'My name is {first_name} {last_name}')
 
+
 # Capitalized first and last string
 print(f'My name is {first_name.upper()} {last_name.upper()}')
 
