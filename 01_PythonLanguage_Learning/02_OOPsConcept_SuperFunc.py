@@ -14,6 +14,7 @@ class B(A):
         print("This is a M1 method of Class B") #Overriding method
         super().M1()
 
+
 ObjB=B()
 ObjB.M1()
 
@@ -39,7 +40,7 @@ Objy.M(20,3)
 
 '''How to override variables'''
 class Parent:
-    name="shweta"
+    name="Shweta"
 class Child(Parent):
     name="Kunsh" #Ovverriding the variable value
     def Parentvar(self):
