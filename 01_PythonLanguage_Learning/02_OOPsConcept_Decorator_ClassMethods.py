@@ -5,15 +5,14 @@
 
 
 class Company:
-    def __init__(self,companyname,city,Emp):
-        self.companyname=companyname
-        self.city=city
-        self.Emp=Emp
-    #@classmethod
+    companyname="Google"
+    city="Waterloo"
+    Emp="11115"
+
+    @classmethod
     def display(self):
-        print(f"Your company name is {self.companyname},{self.city} and you employee ID is {self.Emp}")
+        print(f"Your company name is {self.companyname},{self.city}"
+              f"and you employee ID is {self.Emp}")
 
 
-comp=Company("Google","Waterloo","21234")
-#comp.display()
 Company.display()
